@@ -1,0 +1,13 @@
+fonts-fira (4.202sanscondensed-4.106sansmono-0local1) unstable; urgency=low
+
+  * Initial "local" package -- not uploaded to Debian as it is not
+    entirely clear what the copyright situation for the toolchain is
+    
+  * Packaging based on
+     - package fonts-inconsolata (001.010-3)
+     - https://gist.github.com/lucasdavila/3875946
+    with thanks to both and also my own
+     - my own pkg-fonts-source-code-pro/
+    which is on GitHub too
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 08 May 2016 14:45:38 -0500

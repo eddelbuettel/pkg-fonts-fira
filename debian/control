@@ -1,0 +1,22 @@
+Source: fonts-fira
+Section: fonts
+Priority: optional
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Build-Depends: debhelper (>= 9~), wget
+Standards-Version: 3.9.6
+Homepage: https://github.com/adobe-fonts/source-code-pro
+
+Package: fonts-fira
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Mozilla Typeface used in Firefox OS
+ See http://mozilla.github.io/Fira
+ .
+ The packaging is informal. I do not plan to upload this to Debian as
+ I am unsure about the copyright status of the toolchain. The
+ packaging also a somewhat hackish shortcut by extracting the files
+ from the released file obtained from the github repo.
+ .
+ I would be happy for another maintainer (or the fonts team) to take
+ it over as well.
